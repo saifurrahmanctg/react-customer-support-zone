@@ -1,16 +1,67 @@
-# React + Vite
+# React Customer Support Zone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**React Customer Support Zone** is a customer support ticket management UI built with React and Vite.  
+The app helps users view support tickets, update their status, and interact with a clean, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo (if available)
+> Add your deployment link here (e.g., Vercel, Netlify)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Project Features
 
-## Expanding the ESLint configuration
+- 📋 **Support Ticket List**  
+  View a list of customer support tickets with details like title, description, and status.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔁 **Status Updates**  
+  Change ticket statuses (e.g., from *In Progress* to *Resolved*), and see UI updates instantly.
+
+- ⚛️ **React State & Props**  
+  Learn how to manage shared state across components and pass data via props.
+
+- 💬 **Interactive UI**  
+  Buttons and UI elements that respond to user actions, improving UX.
+
+- 📱 **Responsive Design**  
+  UI adapts to mobile and desktop screens.
+
+---
+
+## 🛠 Built With
+
+- 🔹 **React** – JavaScript UI library  
+- ⚡ **Vite** – Fast frontend tooling  
+- 🎨 **CSS / Tailwind (or your CSS choice)** – Styling UI components  
+- 📦 **React Toastify or similar** – Optional notifications
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/saifurrahmanctg/react-customer-support-zone.git
+cd react-customer-support-zone
+```
+
+### Install deps
+
+```bash
+npm install
+```
+
+### Start Dev Server
+```bash
+npm run dev
+```
+
+###📂 Folder Structure
+├── public/           # Static assets
+├── src/              # React UI components
+│   ├── components/   # UI pieces and ticket views
+│   ├── App.jsx       # Root app
+│   └── index.css     # Styles
+├── package.json      # Project config
+└── vite.config.js    # Vite config

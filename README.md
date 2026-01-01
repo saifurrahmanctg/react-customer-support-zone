@@ -58,6 +58,8 @@ npm run dev
 ```
 
 ###📂 Folder Structure
+
+```bash
 ├── public/           # Static assets
 ├── src/              # React UI components
 │   ├── components/   # UI pieces and ticket views
@@ -65,3 +67,4 @@ npm run dev
 │   └── index.css     # Styles
 ├── package.json      # Project config
 └── vite.config.js    # Vite config
+```
